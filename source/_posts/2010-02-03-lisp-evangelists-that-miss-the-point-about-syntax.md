@@ -2,6 +2,7 @@
 layout: post
 title: Lisp evangelists that miss the point about syntax
 tags: 
+comments: true
 ---
 People that promote Lisp usually tout the fact that you can construct new
 syntax as one of its powerful features. However, when it comes to any other

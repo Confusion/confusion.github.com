@@ -5,6 +5,7 @@ tags:
 - Ruby
 - programming
 - metaprogramming
+comments: true
 ---
 While learning Ruby, I found the talk of classes, modules, eigenclasses (also
 known as singleton classes or metaclasses), instance methods, class methods and
