@@ -2,6 +2,7 @@
 layout: post
 title: We still have a long way to go
 tags: 
+comments: true
 ---
 > Enlightenment, science, democracy and equal opportunity are still the
 > true rebels, reigning for just a few generations (and still

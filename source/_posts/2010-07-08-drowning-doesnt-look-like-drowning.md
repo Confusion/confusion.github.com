@@ -2,7 +2,7 @@
 layout: post
 title: "Drowning Doesn't Look Like Drowning"
 tags:
-external-url:
+comments: true
 ---
 [Something everyone should know](http://mariovittone.com/2010/05/154/) when
 someone is drowning, it doesn't look

@@ -2,6 +2,7 @@
 layout: post
 title: Identifying your Ruby implementation at runtime
 tags: 
+comments: true
 ---
 There are a number of global variables available to determine, at runtime,
 which Ruby implementation you are using. You can find most of these in
