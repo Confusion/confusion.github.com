@@ -1,145 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title>Coding in an absurd reality</title>
-  <meta name="author" content="Ivo Wever">
-
-  
-  <meta name="description" content="Enlightenment, science, democracy and equal opportunity are still the
-true rebels, reigning for just a few generations (and still
-imperfectly) in one &hellip;">
-  
-
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  
-  <link rel="canonical" href="http://Confusion.github.com/">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="/javascripts/ender.js"></script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="/atom.xml" rel="alternate" title="Coding in an absurd reality" type="application/atom+xml">
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-
-  
-
-</head>
-
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">Coding in an absurd reality</a></h1>
-  
-</hgroup>
-
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:Confusion.github.com" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-</ul>
-
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
+  <title><![CDATA[Coding in an absurd reality]]></title>
+  <link href="http://Confusion.github.com/atom.xml" rel="self"/>
+  <link href="http://Confusion.github.com/"/>
+  <updated>2013-01-31T21:39:53+01:00</updated>
+  <id>http://Confusion.github.com/</id>
+  <author>
+    <name><![CDATA[Ivo Wever]]></name>
     
-      <h1 class="entry-title"><a href="/blog/2011/02/17/we-still-have-a-long-way-to-go/">We Still Have a Long Way to Go</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
   
-
-
-<time datetime="2011-02-17T00:00:00+01:00" pubdate data-updated="true">Feb 17<span>th</span>, 2011</time>
-        
-         | <a href="/blog/2011/02/17/we-still-have-a-long-way-to-go/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><blockquote><p>Enlightenment, science, democracy and equal opportunity are still the
+  <entry>
+    <title type="html"><![CDATA[We still have a long way to go]]></title>
+    <link href="http://Confusion.github.com/blog/2011/02/17/we-still-have-a-long-way-to-go/"/>
+    <updated>2011-02-17T00:00:00+01:00</updated>
+    <id>http://Confusion.github.com/blog/2011/02/17/we-still-have-a-long-way-to-go</id>
+    <content type="html"><![CDATA[<blockquote><p>Enlightenment, science, democracy and equal opportunity are still the
 true rebels, reigning for just a few generations (and still
 imperfectly) in one or two corners of the Earth, after elite chiefs,
 romantic bards and magicians dominated our ancestors for maybe half a
 million years.</p></blockquote>
 
 <p>— David Brin, in <a href="http://dir.salon.com/story/ent/feature/2002/12/17/tolkien_brin/print.html">J.R.R. Tolkien — enemy of progress</a></p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2010/08/05/identifying-your-ruby-implementation-at-runtime/">Identifying Your Ruby Implementation at Runtime</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-08-05T00:00:00+02:00" pubdate data-updated="true">Aug 5<span>th</span>, 2010</time>
-        
-         | <a href="/blog/2010/08/05/identifying-your-ruby-implementation-at-runtime/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>There are a number of global variables available to determine, at runtime,
+  <entry>
+    <title type="html"><![CDATA[Identifying your Ruby implementation at runtime]]></title>
+    <link href="http://Confusion.github.com/blog/2010/08/05/identifying-your-ruby-implementation-at-runtime/"/>
+    <updated>2010-08-05T00:00:00+02:00</updated>
+    <id>http://Confusion.github.com/blog/2010/08/05/identifying-your-ruby-implementation-at-runtime</id>
+    <content type="html"><![CDATA[<p>There are a number of global variables available to determine, at runtime,
 which Ruby implementation you are using. You can find most of these in
 <code>Object.constants</code> and the most interesting ones are:</p>
 
@@ -173,44 +67,15 @@ surrounded by:</p>
 
 
 
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2010/08/01/ruby-has-only-one-kind-of-method-and-one-kind-of-method-container/">Ruby Has Only One Kind of Method and One Kind of Method Container</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-08-01T00:00:00+02:00" pubdate data-updated="true">Aug 1<span>st</span>, 2010</time>
-        
-         | <a href="/blog/2010/08/01/ruby-has-only-one-kind-of-method-and-one-kind-of-method-container/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>While learning Ruby, I found the talk of classes, modules, eigenclasses (also
+  <entry>
+    <title type="html"><![CDATA[Ruby has only one kind of method and one kind of method container]]></title>
+    <link href="http://Confusion.github.com/blog/2010/08/01/ruby-has-only-one-kind-of-method-and-one-kind-of-method-container/"/>
+    <updated>2010-08-01T00:00:00+02:00</updated>
+    <id>http://Confusion.github.com/blog/2010/08/01/ruby-has-only-one-kind-of-method-and-one-kind-of-method-container</id>
+    <content type="html"><![CDATA[<p>While learning Ruby, I found the talk of classes, modules, eigenclasses (also
 known as singleton classes or metaclasses), instance methods, class methods and
 singleton methods (also known as eigenmethods) pretty confusing. Fortunately,
 when you put everything together<sup>[1]</sup>, it turns out to be very simple: Ruby has
@@ -526,247 +391,73 @@ available to all instances of the class.</li>
 
 <p><sup>[1]</sup> With a little help from the excellent:
 <a href="http://pragprog.com/titles/ppmetr/metaprogramming-ruby">Metaprogramming Ruby</a> by Paolo Perrotta</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2010/07/08/drowning-doesnt-look-like-drowning/">Drowning Doesn&#8217;t Look Like Drowning</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-07-08T00:00:00+02:00" pubdate data-updated="true">Jul 8<span>th</span>, 2010</time>
-        
-         | <a href="/blog/2010/07/08/drowning-doesnt-look-like-drowning/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><a href="http://mariovittone.com/2010/05/154/">Something everyone should know</a> when
+  <entry>
+    <title type="html"><![CDATA[Drowning Doesn't Look Like Drowning]]></title>
+    <link href="http://Confusion.github.com/blog/2010/07/08/drowning-doesnt-look-like-drowning/"/>
+    <updated>2010-07-08T00:00:00+02:00</updated>
+    <id>http://Confusion.github.com/blog/2010/07/08/drowning-doesnt-look-like-drowning</id>
+    <content type="html"><![CDATA[<p><a href="http://mariovittone.com/2010/05/154/">Something everyone should know</a> when
 someone is drowning, it doesn&#8217;t look
 the way it is portrayed in movies. Especially children are known
 to drown within reach of others, because everyone, even their parents, are
 unaware something is wrong.</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2010/02/26/tipsandtrickstextbasedlinuxinstall---dropbox-wiki/">TipsAndTricks/TextBasedLinuxInstall - Dropbox Wiki</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-02-26T00:00:00+01:00" pubdate data-updated="true">Feb 26<span>th</span>, 2010</time>
-        
-         | <a href="/blog/2010/02/26/tipsandtrickstextbasedlinuxinstall---dropbox-wiki/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Wow, there’s actually <a href="http://wiki.dropbox.com/TipsAndTricks/TextBasedLinuxInstall">a Linux CLI version of DropBox</a>.
+  <entry>
+    <title type="html"><![CDATA[TipsAndTricks/TextBasedLinuxInstall - Dropbox Wiki]]></title>
+    <link href="http://Confusion.github.com/blog/2010/02/26/tipsandtrickstextbasedlinuxinstall---dropbox-wiki/"/>
+    <updated>2010-02-26T00:00:00+01:00</updated>
+    <id>http://Confusion.github.com/blog/2010/02/26/tipsandtrickstextbasedlinuxinstall&#8212;dropbox-wiki</id>
+    <content type="html"><![CDATA[<p>Wow, there’s actually <a href="http://wiki.dropbox.com/TipsAndTricks/TextBasedLinuxInstall">a Linux CLI version of DropBox</a>.
 Amazing!</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2010/02/13/a-few-billion-lines-of-code-later/">A Few Billion Lines of Code Later: Using Static Analysis to Find Bugs in the Real World</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-02-13T00:00:00+01:00" pubdate data-updated="true">Feb 13<span>th</span>, 2010</time>
-        
-         | <a href="/blog/2010/02/13/a-few-billion-lines-of-code-later/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><a href="http://cacm.acm.org/magazines/2010/2/69354-a-few-billion-lines-of-code-later/fulltext">A very interesting story</a>
+  <entry>
+    <title type="html"><![CDATA[A Few Billion Lines of Code Later: Using Static Analysis to Find Bugs in the Real World]]></title>
+    <link href="http://Confusion.github.com/blog/2010/02/13/a-few-billion-lines-of-code-later/"/>
+    <updated>2010-02-13T00:00:00+01:00</updated>
+    <id>http://Confusion.github.com/blog/2010/02/13/a-few-billion-lines-of-code-later</id>
+    <content type="html"><![CDATA[<p><a href="http://cacm.acm.org/magazines/2010/2/69354-a-few-billion-lines-of-code-later/fulltext">A very interesting story</a>
 about the practical problems the guys that developed <a href="http://www.coverity.com/">Coverity’s</a>
 static analysis tool encountered. Shows the difference between
 academic theory and practice, but applies just as much to any theory developers
 usually have about a software application, before actual customers start using
 it.</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2010/02/12/schneier-on-security-man-in-the-middle-attack-against-chip-and-pin/">Schneier on Security: Man-in-the-Middle Attack Against Chip and PIN</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-02-12T00:00:00+01:00" pubdate data-updated="true">Feb 12<span>th</span>, 2010</time>
-        
-         | <a href="/blog/2010/02/12/schneier-on-security-man-in-the-middle-attack-against-chip-and-pin/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><a href="http://www.schneier.com/blog/archives/2010/02/man-in-the-midd_1.html">As Bruce says</a>:</p>
+  <entry>
+    <title type="html"><![CDATA[Schneier on Security: Man-in-the-Middle Attack Against Chip and PIN]]></title>
+    <link href="http://Confusion.github.com/blog/2010/02/12/schneier-on-security-man-in-the-middle-attack-against-chip-and-pin/"/>
+    <updated>2010-02-12T00:00:00+01:00</updated>
+    <id>http://Confusion.github.com/blog/2010/02/12/schneier-on-security-man-in-the-middle-attack-against-chip-and-pin</id>
+    <content type="html"><![CDATA[<p><a href="http://www.schneier.com/blog/archives/2010/02/man-in-the-midd_1.html">As Bruce says</a>:</p>
 
 <blockquote><p>This is big.</p></blockquote>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2010/02/10/the-twitter-engineering-blog-hello-world/">The Twitter Engineering Blog: Hello World</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-02-10T00:00:00+01:00" pubdate data-updated="true">Feb 10<span>th</span>, 2010</time>
-        
-         | <a href="/blog/2010/02/10/the-twitter-engineering-blog-hello-world/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><a href="http://engineering.twitter.com/2010/02/hello-world.html">Funky animation</a> that
+  <entry>
+    <title type="html"><![CDATA[The Twitter Engineering Blog: Hello World]]></title>
+    <link href="http://Confusion.github.com/blog/2010/02/10/the-twitter-engineering-blog-hello-world/"/>
+    <updated>2010-02-10T00:00:00+01:00</updated>
+    <id>http://Confusion.github.com/blog/2010/02/10/the-twitter-engineering-blog-hello-world</id>
+    <content type="html"><![CDATA[<p><a href="http://engineering.twitter.com/2010/02/hello-world.html">Funky animation</a> that
 shows how the code in the Twitter repository grew the past few years.</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2010/02/03/lisp-evangelists-that-miss-the-point-about-syntax/">Lisp Evangelists That Miss the Point About Syntax</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-02-03T00:00:00+01:00" pubdate data-updated="true">Feb 3<span>rd</span>, 2010</time>
-        
-         | <a href="/blog/2010/02/03/lisp-evangelists-that-miss-the-point-about-syntax/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>People that promote Lisp usually tout the fact that you can construct new
+  <entry>
+    <title type="html"><![CDATA[Lisp evangelists that miss the point about syntax]]></title>
+    <link href="http://Confusion.github.com/blog/2010/02/03/lisp-evangelists-that-miss-the-point-about-syntax/"/>
+    <updated>2010-02-03T00:00:00+01:00</updated>
+    <id>http://Confusion.github.com/blog/2010/02/03/lisp-evangelists-that-miss-the-point-about-syntax</id>
+    <content type="html"><![CDATA[<p>People that promote Lisp usually tout the fact that you can construct new
 syntax as one of its powerful features. However, when it comes to any other
 programming language, a number of these people will say that the language is
 wrong, because it has too much syntax. As any syntax seems to be too much, the
@@ -784,44 +475,15 @@ comes at a cost and the existence of so many other programming languages shows
 one thing very clearly: not everyone is willing to pay that cost. Why can’t we
 live with that fact, use Lisp when we need it or want to and
 stop criticizing other languages for not being Lisp?</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2010/01/20/writers-and-editors-dont-make-me-feel-stupid/">Writers and Editors: Don&#8217;t Make Me Feel Stupid!</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-01-20T00:00:00+01:00" pubdate data-updated="true">Jan 20<span>th</span>, 2010</time>
-        
-         | <a href="/blog/2010/01/20/writers-and-editors-dont-make-me-feel-stupid/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Imagine you don’t know what a <a href="http://en.wikipedia.org/wiki/Web_service">web_service</a> is, but you’ve heard someone talking
+  <entry>
+    <title type="html"><![CDATA[Writers and editors: don't make me feel stupid!]]></title>
+    <link href="http://Confusion.github.com/blog/2010/01/20/writers-and-editors-dont-make-me-feel-stupid/"/>
+    <updated>2010-01-20T00:00:00+01:00</updated>
+    <id>http://Confusion.github.com/blog/2010/01/20/writers-and-editors-dont-make-me-feel-stupid</id>
+    <content type="html"><![CDATA[<p>Imagine you don’t know what a <a href="http://en.wikipedia.org/wiki/Web_service">web_service</a> is, but you’ve heard someone talking
 about them and you are interested in knowing more about them. You click the
 link in the previous sentence and are told</p>
 
@@ -926,147 +588,7 @@ this in some other way?</p>
  auspices of the W3C, came up with a single standard, which contains
  specifications for all scenarios they could think of.
 </code></pre>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>About</h1>
-  <p>A programmer by profession, a physicist by training, a philosopher by nature</p>
-</section>
-<section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2011/02/17/we-still-have-a-long-way-to-go/">We still have a long way to go</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2010/08/05/identifying-your-ruby-implementation-at-runtime/">Identifying your Ruby implementation at runtime</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2010/08/01/ruby-has-only-one-kind-of-method-and-one-kind-of-method-container/">Ruby has only one kind of method and one kind of method container</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2010/07/08/drowning-doesnt-look-like-drowning/">Drowning Doesn&#8217;t Look Like Drowning</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2010/02/26/tipsandtrickstextbasedlinuxinstall---dropbox-wiki/">TipsAndTricks/TextBasedLinuxInstall - Dropbox Wiki</a>
-      </li>
-    
-  </ul>
-</section>
-
-<section>
-  <h1>Latest Tweets</h1>
-  <ul id="tweets">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  <script type="text/javascript">
-    $.domReady(function(){
-      getTwitterFeed("Confusionist", 4, false);
-    });
-  </script>
-  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
-  
-    <a href="http://twitter.com/Confusionist" class="twitter-follow-button" data-show-count="false">Follow @Confusionist</a>
-  
-</section>
-
-
-<section>
-  <h1>GitHub Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  
-  <a href="https://github.com/Confusion">@Confusion</a> on GitHub
-  
-  <script type="text/javascript">
-    $.domReady(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'Confusion',
-            count: 0,
-            skip_forks: true,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
-
-
-
-
-
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2013 - Ivo Wever -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
-</footer>
-  
-
-<script type="text/javascript">
-      var disqus_shortname = 'confusionist';
-      
-        
-        var disqus_script = 'count.js';
-      
-    (function () {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    }());
-</script>
-
-
-
-
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
-
-
-
-</body>
-</html>
+</feed>

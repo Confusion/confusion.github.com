@@ -5,13 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Coding in an absurd reality</title>
+  <title>Ruby has only one kind of method and one kind of method container - Coding in an absurd reality</title>
   <meta name="author" content="Ivo Wever">
 
   
-  <meta name="description" content="Enlightenment, science, democracy and equal opportunity are still the
-true rebels, reigning for just a few generations (and still
-imperfectly) in one &hellip;">
+  <meta name="description" content="While learning Ruby, I found the talk of classes, modules, eigenclasses (also
+known as singleton classes or metaclasses), instance methods, class &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +19,7 @@ imperfectly) in one &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://Confusion.github.com/">
+  <link rel="canonical" href="http://Confusion.github.com/blog/2010/08/01/ruby-has-only-one-kind-of-method-and-one-kind-of-method-container/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -62,130 +61,12 @@ imperfectly) in one &hellip;">
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2011/02/17/we-still-have-a-long-way-to-go/">We Still Have a Long Way to Go</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-02-17T00:00:00+01:00" pubdate data-updated="true">Feb 17<span>th</span>, 2011</time>
-        
-         | <a href="/blog/2011/02/17/we-still-have-a-long-way-to-go/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><blockquote><p>Enlightenment, science, democracy and equal opportunity are still the
-true rebels, reigning for just a few generations (and still
-imperfectly) in one or two corners of the Earth, after elite chiefs,
-romantic bards and magicians dominated our ancestors for maybe half a
-million years.</p></blockquote>
-
-<p>— David Brin, in <a href="http://dir.salon.com/story/ent/feature/2002/12/17/tolkien_brin/print.html">J.R.R. Tolkien — enemy of progress</a></p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2010/08/05/identifying-your-ruby-implementation-at-runtime/">Identifying Your Ruby Implementation at Runtime</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-08-05T00:00:00+02:00" pubdate data-updated="true">Aug 5<span>th</span>, 2010</time>
-        
-         | <a href="/blog/2010/08/05/identifying-your-ruby-implementation-at-runtime/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>There are a number of global variables available to determine, at runtime,
-which Ruby implementation you are using. You can find most of these in
-<code>Object.constants</code> and the most interesting ones are:</p>
-
-<ul>
-<li>RUBY_ENGINE,</li>
-<li>RUBY_PLATFORM,</li>
-<li>RUBY_VERSION and</li>
-<li>PLATFORM</li>
-</ul>
-
-
-<p>Why would you want to know this? For instance to be able to load a Java library
-when our code is running in JRuby, but fallback to some other library when we
-are running in MRI or Rubinius. In my current use case: to run most specs in
-MRI, which starts way faster than JRuby. Loading of Java-specific code is
-surrounded by:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'>  <span class="k">if</span> <span class="no">RUBY_ENGINE</span> <span class="o">==</span> <span class="n">jruby</span>
-</span><span class='line'>    <span class="c1"># Load jars and stuff</span>
-</span><span class='line'>  <span class="k">else</span>
-</span><span class='line'>    <span class="n">logger</span><span class="o">.</span><span class="n">warn</span> <span class="s2">&quot;Running in stubbed mode: only useful for specs that</span>
-</span><span class='line'><span class="s2">        dont exercise the actual database connection.&quot;</span>
-</span><span class='line'>  <span class="k">end</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2010/08/01/ruby-has-only-one-kind-of-method-and-one-kind-of-method-container/">Ruby Has Only One Kind of Method and One Kind of Method Container</a></h1>
+      <h1 class="entry-title">Ruby Has Only One Kind of Method and One Kind of Method Container</h1>
     
     
       <p class="meta">
@@ -203,14 +84,14 @@ surrounded by:</p>
 
 <time datetime="2010-08-01T00:00:00+02:00" pubdate data-updated="true">Aug 1<span>st</span>, 2010</time>
         
-         | <a href="/blog/2010/08/01/ruby-has-only-one-kind-of-method-and-one-kind-of-method-container/#disqus_thread">Comments</a>
+         | <a href="#disqus_thread">Comments</a>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>While learning Ruby, I found the talk of classes, modules, eigenclasses (also
+<div class="entry-content"><p>While learning Ruby, I found the talk of classes, modules, eigenclasses (also
 known as singleton classes or metaclasses), instance methods, class methods and
 singleton methods (also known as eigenmethods) pretty confusing. Fortunately,
 when you put everything together<sup>[1]</sup>, it turns out to be very simple: Ruby has
@@ -527,64 +408,16 @@ available to all instances of the class.</li>
 <p><sup>[1]</sup> With a little help from the excellent:
 <a href="http://pragprog.com/titles/ppmetr/metaprogramming-ruby">Metaprogramming Ruby</a> by Paolo Perrotta</p>
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2010/07/08/drowning-doesnt-look-like-drowning/">Drowning Doesn&#8217;t Look Like Drowning</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
   
 
+<span class="byline author vcard">Posted by <span class="fn">Ivo Wever</span></span>
 
-<time datetime="2010-07-08T00:00:00+02:00" pubdate data-updated="true">Jul 8<span>th</span>, 2010</time>
-        
-         | <a href="/blog/2010/07/08/drowning-doesnt-look-like-drowning/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><a href="http://mariovittone.com/2010/05/154/">Something everyone should know</a> when
-someone is drowning, it doesn&#8217;t look
-the way it is portrayed in movies. Especially children are known
-to drown within reach of others, because everyone, even their parents, are
-unaware something is wrong.</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2010/02/26/tipsandtrickstextbasedlinuxinstall---dropbox-wiki/">TipsAndTricks/TextBasedLinuxInstall - Dropbox Wiki</a></h1>
-    
-    
-      <p class="meta">
-        
 
 
 
@@ -596,349 +429,40 @@ unaware something is wrong.</p>
   
 
 
-<time datetime="2010-02-26T00:00:00+01:00" pubdate data-updated="true">Feb 26<span>th</span>, 2010</time>
-        
-         | <a href="/blog/2010/02/26/tipsandtrickstextbasedlinuxinstall---dropbox-wiki/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Wow, there’s actually <a href="http://wiki.dropbox.com/TipsAndTricks/TextBasedLinuxInstall">a Linux CLI version of DropBox</a>.
-Amazing!</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
+<time datetime="2010-08-01T00:00:00+02:00" pubdate data-updated="true">Aug 1<span>st</span>, 2010</time>
       
-  <header>
+
+
+    </p>
     
-      <h1 class="entry-title"><a href="/blog/2010/02/13/a-few-billion-lines-of-code-later/">A Few Billion Lines of Code Later: Using Static Analysis to Find Bugs in the Real World</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
+      <div class="sharing">
   
-
-
-<time datetime="2010-02-13T00:00:00+01:00" pubdate data-updated="true">Feb 13<span>th</span>, 2010</time>
-        
-         | <a href="/blog/2010/02/13/a-few-billion-lines-of-code-later/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><a href="http://cacm.acm.org/magazines/2010/2/69354-a-few-billion-lines-of-code-later/fulltext">A very interesting story</a>
-about the practical problems the guys that developed <a href="http://www.coverity.com/">Coverity’s</a>
-static analysis tool encountered. Shows the difference between
-academic theory and practice, but applies just as much to any theory developers
-usually have about a software application, before actual customers start using
-it.</p>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://Confusion.github.com/blog/2010/08/01/ruby-has-only-one-kind-of-method-and-one-kind-of-method-container/" data-via="Confusionist" data-counturl="http://Confusion.github.com/blog/2010/08/01/ruby-has-only-one-kind-of-method-and-one-kind-of-method-container/" >Tweet</a>
+  
+  
+  
 </div>
-  
-  
 
-
-    </article>
-  
-  
-    <article>
+    
+    <p class="meta">
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2010/02/12/schneier-on-security-man-in-the-middle-attack-against-chip-and-pin/">Schneier on Security: Man-in-the-Middle Attack Against Chip and PIN</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-02-12T00:00:00+01:00" pubdate data-updated="true">Feb 12<span>th</span>, 2010</time>
-        
-         | <a href="/blog/2010/02/12/schneier-on-security-man-in-the-middle-attack-against-chip-and-pin/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><a href="http://www.schneier.com/blog/archives/2010/02/man-in-the-midd_1.html">As Bruce says</a>:</p>
-
-<blockquote><p>This is big.</p></blockquote>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
+        <a class="basic-alignment left" href="/blog/2010/07/08/drowning-doesnt-look-like-drowning/" title="Previous Post: Drowning Doesn't Look Like Drowning">&laquo; Drowning Doesn't Look Like Drowning</a>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2010/02/10/the-twitter-engineering-blog-hello-world/">The Twitter Engineering Blog: Hello World</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-02-10T00:00:00+01:00" pubdate data-updated="true">Feb 10<span>th</span>, 2010</time>
-        
-         | <a href="/blog/2010/02/10/the-twitter-engineering-blog-hello-world/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><a href="http://engineering.twitter.com/2010/02/hello-world.html">Funky animation</a> that
-shows how the code in the Twitter repository grew the past few years.</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2010/02/03/lisp-evangelists-that-miss-the-point-about-syntax/">Lisp Evangelists That Miss the Point About Syntax</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-02-03T00:00:00+01:00" pubdate data-updated="true">Feb 3<span>rd</span>, 2010</time>
-        
-         | <a href="/blog/2010/02/03/lisp-evangelists-that-miss-the-point-about-syntax/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>People that promote Lisp usually tout the fact that you can construct new
-syntax as one of its powerful features. However, when it comes to any other
-programming language, a number of these people will say that the language is
-wrong, because it has too much syntax. As any syntax seems to be too much, the
-complaint about the syntax is actually a red herring. The real complaint is:
-this language isn’t Lisp and I can’t ‘drop down’ to a lower level to adjust the
-syntax to my needs.</p>
-
-<p>As many people in <a href="http://news.ycombinator.com/item?id=1097911">this thread</a>,
-which inspired this post, point out: the
-ability to create syntax is powerful, exactly because syntax increases the
-usability of the language for your specific purpose. So why not create syntax
-that catches 99% of the cases for which you intend the language to be used and
-abolish the ability to create further syntax? The ability to create syntax
-comes at a cost and the existence of so many other programming languages shows
-one thing very clearly: not everyone is willing to pay that cost. Why can’t we
-live with that fact, use Lisp when we need it or want to and
-stop criticizing other languages for not being Lisp?</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
+        <a class="basic-alignment right" href="/blog/2010/08/05/identifying-your-ruby-implementation-at-runtime/" title="Next Post: Identifying your Ruby implementation at runtime">Identifying your Ruby implementation at runtime &raquo;</a>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2010/01/20/writers-and-editors-dont-make-me-feel-stupid/">Writers and Editors: Don&#8217;t Make Me Feel Stupid!</a></h1>
-    
-    
-      <p class="meta">
-        
+    </p>
+  </footer>
+</article>
 
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-01-20T00:00:00+01:00" pubdate data-updated="true">Jan 20<span>th</span>, 2010</time>
-        
-         | <a href="/blog/2010/01/20/writers-and-editors-dont-make-me-feel-stupid/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Imagine you don’t know what a <a href="http://en.wikipedia.org/wiki/Web_service">web_service</a> is, but you’ve heard someone talking
-about them and you are interested in knowing more about them. You click the
-link in the previous sentence and are told</p>
-
-<pre><code> Web services today are frequently just Application Programming
- Interfaces (API) or web APIs that can be accessed over a network,
- such as the Internet, and executed on a remote system hosting the
- requested services.
-</code></pre>
-
-<p>That didn’t make any sense to you, but you continued reading and made it to</p>
-
-<pre><code> The W3C defines a “web service” as “a software system designed to
- support interoperable machine-to-machine interaction over a network.
-</code></pre>
-
-<p>which started to make a bit of sense. However, as you weren’t particularly
-enlightened yet, you enter ‘What_is_a_webservice’ into Google and read other
-<a href="http://www.google.com/search?ie=UTF-8&amp;q=what+is+a+web+service">&#8216;explanations&#8217;</a> like the one from <a href="http://www.webopedia.com/TERM/W/Web_Services.html">Webopedia</a>:</p>
-
-<pre><code> The term Web services describes a standardized way of integrating
- Web-based applications using the XML, SOAP, WSDL and UDDI open
- standards over an Internet protocol backbone. XML is used to tag the
- data, SOAP is used to transfer the data, WSDL is used for describing
- the services available and UDDI is used for listing what services are
- available. Used primarily as a means for businesses to communicate
- with each other and with clients, Web services allow organizations to
- communicate data without intimate knowledge of each other’s IT
- systems behind the firewall.
-</code></pre>
-
-<p>There’s not a doubt on my mind that most people are now left feeling stupid and
-confused. This is a very bad thing, because it discourages people from
-learning: if it is impossible to find a decent introduction to a subject,
-surely it’s either too hard or too obscure?
-There are several possible explanations for why these introductions are so bad:</p>
-
-<ul>
-<li>Perhaps it is simply too hard to introduce a subject using common English
-terms?</li>
-<li>Perhaps the authors have an advanced understanding of the subject, but
-not of writing for a general audience?</li>
-<li>Perhaps they suffer from the disease of overuse of jargon to which people
-in every profession fall prey?</li>
-<li>Perhaps they feel the quality of an article suffers when a web service
-would be introduced in terms a layman could follow, like
-
-<pre><code>A web service is a service offered by a piece of software that allows
-one computer to receive and answer requests for information from
-other computers over a network
-</code></pre></li>
-</ul>
-
-
-<p>I’m not sure which of these reasons is dominant, but even if all of them hold
-for the authors: surely there is at least one editor that realizes it should be
-thumbed down and can explain how and why?</p>
-
-<p>What motivated me to write this article was the fact that, for the first time,
-I had to use WS-Addressing and WS-Security in a web service client and the
-first question that came to mind was: “why do we need these”? After figuring
-that out, I concluded that the explanations on Wikipedia and other high-ranking
-search results really didn’t give me the answers I was looking for.</p>
-
-<p>Firstly they suffered from the problems described in the beginning of this post, but
-secondly: the explanations never went into the ‘why’ of these things. They all
-just explained the ‘what’ and the ‘how’. This is what the Wikipedia
-introduction on WS-Addressing currently says:</p>
-
-<pre><code> WS-Addressing or Web Services Addressing is a specification of
- transport-neutral mechanisms that allow web services to communicate
- addressing information. It essentially consists of two parts: a
- structure for communicating a reference to a Web service endpoint,
- and a set of Message Addressing Properties which associate addressing
- information with a particular message.
-</code></pre>
-
-<p>Now I don’t like feeling stupid and I don’t like having to think longer than is
-strictly necessary to understand something and this causes both. Why wouldn’t
-something like the following do?</p>
-
-<pre><code> The motivation for WS-Addressing is that you want to allow clients to
- invoke a web service using address A, while the web service itself
- lives at address B. This allows you to, for instance, use address A
- as a front door to web services at addresses B, C, D and E, while
- having the software at address A perform routing, validation,
- authentication, etc. for all these other web services. It also allows
- you more freedom in your web service addresses, because they don’t
- need to be URL’s that are reachable over the network: only address A
- needs to be ‘real’.
-</code></pre>
-
-<p>Secondly, a FAQ or the like should answer the obvious question: can’t you solve
-this in some other way?</p>
-
-<pre><code> Of course you can come up with your own scheme to obtain the same
- goal, but one downside to that is that the software at address A
- would have to be able to deal with different homegrown
- implementations of the same general principle, if it were to allow
- access to web services of different origins. Another downside is that
- you may initially overlook functionality, that proves harder to ‘tack
- on’ later. That’s why Microsoft, IBM, Sun, BEA and SAP, under the
- auspices of the W3C, came up with a single standard, which contains
- specifications for all scenarios they could think of.
-</code></pre>
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
-  
-  
+  </section>
 
-
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
 </div>
+
 <aside class="sidebar">
   
     <section>
@@ -962,7 +486,7 @@ this in some other way?</p>
       </li>
     
       <li class="post">
-        <a href="/blog/2010/07/08/drowning-doesnt-look-like-drowning/">Drowning Doesn&#8217;t Look Like Drowning</a>
+        <a href="/blog/2010/07/08/drowning-doesnt-look-like-drowning/">Drowning Doesn't Look Like Drowning</a>
       </li>
     
       <li class="post">
@@ -975,7 +499,7 @@ this in some other way?</p>
 <section>
   <h1>Latest Tweets</h1>
   <ul id="tweets">
-    <li class="loading">Status updating&#8230;</li>
+    <li class="loading">Status updating...</li>
   </ul>
   <script type="text/javascript">
     $.domReady(function(){
@@ -992,7 +516,7 @@ this in some other way?</p>
 <section>
   <h1>GitHub Repos</h1>
   <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
+    <li class="loading">Status updating...</li>
   </ul>
   
   <a href="https://github.com/Confusion">@Confusion</a> on GitHub
@@ -1025,6 +549,7 @@ this in some other way?</p>
   
 </aside>
 
+
     </div>
   </div>
   <footer role="contentinfo"><p>
@@ -1039,7 +564,10 @@ this in some other way?</p>
       var disqus_shortname = 'confusionist';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://Confusion.github.com/blog/2010/08/01/ruby-has-only-one-kind-of-method-and-one-kind-of-method-container/';
+        var disqus_url = 'http://Confusion.github.com/blog/2010/08/01/ruby-has-only-one-kind-of-method-and-one-kind-of-method-container/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
