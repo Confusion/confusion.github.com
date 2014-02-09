@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Identifying your Ruby implementation at runtime
+date: 2010-08-05
 tags: 
 comments: true
 ---

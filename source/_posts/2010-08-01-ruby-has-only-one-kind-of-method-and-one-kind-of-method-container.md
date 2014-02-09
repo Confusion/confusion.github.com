@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ruby has only one kind of method and one kind of method container
+date: 2010-08-01
 tags:
 - Ruby
 - programming

@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Drowning Doesn't Look Like Drowning"
+title: Drowning Doesn't Look Like Drowning
+date: 2010-07-08
 tags:
 comments: true
 ---

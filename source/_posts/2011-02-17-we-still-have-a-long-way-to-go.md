@@ -1,6 +1,7 @@
 ---
 layout: post
 title: We still have a long way to go
+date: 2011-02-17
 tags: 
 comments: true
 ---
