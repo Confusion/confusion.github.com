@@ -3,8 +3,8 @@ layout: post
 title: How does the Bitcoin blockchain work?
 date: 2014-02-08 17:39:45 +0100
 comments: true
-published: false
 categories: 
+published: false
 ---
 The 'blockchain' technology underlying Bitcoin is touted as a 
 novel technology that makes many new ventures possible that were previously 
