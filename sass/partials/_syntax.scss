@@ -115,7 +115,6 @@ p, li {
 }
 
 .pre-code {
-  // IW: remove by merge @include selection(adjust-color($base03, $lightness: 23%, $saturation: -65%), $text-shadow: $base03 0 1px);
   font-family: $mono !important;
   overflow: scroll;
   overflow-y: hidden;
